@@ -6,6 +6,7 @@ Plug n API is a powerful and flexible API designed to make it easy for developer
 Before you begin, ensure you have the following installed on your machine:
 
 Node.js (v12.x or later)
+
 npm (Node Package Manager)
 
 # Installation and Setup
@@ -15,6 +16,7 @@ Step 1: Create a New Directory
 First, create a new directory for your project and navigate into it:
 
 mkdir plugnapi
+
 cd plugnapi
 
 Step 2: Initialize the Project
@@ -30,8 +32,6 @@ npm install express
 Step 4: Install Nodemon (Optional)
 For development purposes, you can install Nodemon to automatically restart your server when file changes are detected:
 
-bash
-Copy code
 npm install nodemon --save-dev
 
 Step 5: Run the Application
