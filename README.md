@@ -29,10 +29,10 @@ Install Express.js, the framework used to build this API:
 
 npm install express
 
-Step 4: Install Nodemon (Optional)
+Step 4: Install Nodemon, ejs, and, axios
 For development purposes, you can install Nodemon to automatically restart your server when file changes are detected:
 
-npm install nodemon --save-dev
+npm install nodemon ejs axios
 
 Step 5: Run the Application
 To run your application in development mode with Nodemon, use:
