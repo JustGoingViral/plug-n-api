@@ -9,6 +9,23 @@ Node.js (v12.x or later)
 
 npm (Node Package Manager)
 
+Postman
+
+# Nextech Credentials
+Step 1: Contact Nextech to obtain the following:
+ApplicationID
+GroupID
+Username
+Password
+
+Step 2: Sign in to Azure portal: http://portal.azure.com/ using the username and the temporary password Nextech has given. Change the password through the given link.
+
+Step 3: Set up the API using the instructions from this documentation: https://nextechsystems.github.io/selectapidocspub/#getting-started
+
+Note: nx-practice-id is the same as the GroupID, and clientID is the same as ApplicationID
+
+Step 4: Request Access Token on Postman using these instructions: https://nextechsystems.github.io/selectapidocspub/#authentication
+
 # Installation and Setup
 Follow these steps to install and set up the Plug n API:
 
@@ -34,6 +51,11 @@ For development purposes, you can install Nodemon to automatically restart your 
 
 npm install nodemon ejs axios
 
+Step 5: Change the following: 
+a. nx_practice_id on index.js, appointment.js, 
+b. the client_id, username, password on authenticate.js
+c. the credentials on localData.json using the credentials obtained from Postman (Request Access Token)
+
 Step 5: Run the Application
 To run your application in development mode with Nodemon, use:
 
@@ -47,5 +69,7 @@ Step 6: Test the API
 Open your browser and navigate to:
 
 http://localhost:3000
+
+
 
 
